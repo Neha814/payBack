@@ -1,0 +1,120 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lend_money"
+                android:drawablePadding="5dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="Loan coming from" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/emailid"
+                android:drawablePadding="5dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:hint="email id" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lend_money"
+                android:drawablePadding="5dp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:hint="amount receiving" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_dop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_dop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:drawablePadding="5dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:editable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="false"
+                android:hint="date of PAYBACK" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_paybackamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_paybackamt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_payback_amount"
+                android:drawablePadding="5dp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:editable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="false"
+                android:hint="PAYBACK amount" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button android:id="@+id/btn_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

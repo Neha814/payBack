@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.payback.activity.HomeActivity">
+
+    <item
+        android:id="@+id/add"
+        android:title="Add Request"
+        android:orderInCategory="100"
+        android:icon="@drawable/add_selector"
+        app:showAsAction="always" />
+
+</menu>

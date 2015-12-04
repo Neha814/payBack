@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#015f83</color>
+    <color name="colorPrimaryTransparent">#335f50e1</color>
+    <color name="colorPrimaryDark">#015f83</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#015f83</color>
+    <color name="colorerror">#ff0000</color>
+    <color name="coloraccept">@android:color/holo_green_dark</color>
+    <color name="colordecline">@android:color/holo_red_dark</color>
+
+    <color name="button">#015f83</color>
+    <color name="white">#ffffff</color>
+</resources>
